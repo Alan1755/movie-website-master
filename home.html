@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -5,49 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <title>Movie Design</title>
+    <title>Cine Pipoca</title>
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="navbar-container">
-            <div class="logo-container">
-                <h1 class="logo">Cine pipoca</h1>
-            </div>
-            <div class="menu-container">
-                <ul class="menu-list">
-                    <li class="menu-list-item active">Home</li>
-                    <li class="menu-list-item">filmes</li>
-                    <li class="menu-list-item">Series</li>
-                    <li class="menu-list-item">Popular</li>
-                    <li class="menu-list-item">Trends</li>
 
-                </ul>
-            </div>
-            <div class="profile-container">
-                <img class="profile-picture" src="./img/imagens/cine_pipoca.png" alt="">
-                <div class="profile-text-container">
-                    <span class="profile-text">Perfil</span>
-                    <i class="fas fa-caret-down"></i>
-                </div>
-                <div class="toggle">
-                    <i class="fas fa-moon toggle-icon"></i>
-                    <i class="fas fa-sun toggle-icon"></i>
-                    <div class="toggle-ball"></div>
-                </div>
-            </div>
+    <header class="navbar">
+        <div class="logo">
+            <img src="./img/imagens/cine_pipoca.png" alt="Cine Pipoca">
+            <h1>Cine Pipoca</h1>
         </div>
-    </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Séries</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Novelas</a></li>
+                <li><a href="#">Animações</a></li>
+            </ul>
+        </nav>
+
+        <div class="actions">
+            <input type="text" placeholder="Buscar...">
+            <button class="add-btn">+ Adicionar Filme</button>
+        </div>
+    </header>
+
     <div class="container">
         <div class="content-container">
-            <div class="featured-content"
-                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+            <div class="featured-content" style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
                 <img class="featured-title" src="img/f-t-1.png" alt="">
-                <p class="featured-desc">Situado num contexto pré-Guerra de Secessão do Deep South e Velho Oeste, o filme acompanha Django, um escravo liberto que caminha pelos Estados Unidos com um caçador de recompensas em uma missão para resgatar sua esposa de um fazendeiro cruel.</p>
+                <p class="featured-desc">
+                    Situado num contexto pré-Guerra de Secessão do Deep South e Velho Oeste, o filme acompanha Django,
+                    um escravo liberto que caminha pelos Estados Unidos com um caçador de recompensas em uma missão para
+                    resgatar sua esposa de um fazendeiro cruel.
+                </p>
                 <button class="featured-button">Assistir</button>
             </div>
             <div class="movie-list-container">
@@ -63,14 +59,17 @@
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="img/2.jpeg" alt="">
                             <span class="movie-list-item-title">Star Wars</span>
-                            <p class="movie-list-item-desc">O enredo gira pós a era de luke skywaker, Com a Rey como protagonista, será ela a salvação ou a destruição ?</p>
+                            <p class="movie-list-item-desc">O enredo gira pós a era de Luke Skywalker, com Rey como protagonista.</p>
                             <button class="movie-list-item-button">Assistir</button>
                         </div>
-                        <div class="movie-list-item">
+                      <div class="movie-list-item">
+                            <a href="./filme3.html" class=""></a>
                             <img class="movie-list-item-img" src="img/3.jpg" alt="">
                             <span class="movie-list-item-title">Tempestade</span>
                             <p class="movie-list-item-desc">A grande tempestade se aproxima, Um drama com Joaquin phoneix, a destruição das terras, um mundo caótico os espera !</p>
-                            <button class="movie-list-item-button">Assistir</button>
+                            <a href="./filme3.html">
+                               <br> <button class="movie-list-item-button">Assistir</button> </br>
+                            </a>
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="img/4.jpg" alt="">
@@ -80,24 +79,21 @@
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="img/5.jpg" alt="">
-                            <span class="movie-list-item-title">Avengers</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <span class="movie-list-item-title">Vingadores</span>
+                            <p class="movie-list-item-desc">Grupo de super heróis se juntam para defender o mundo de uma grande ameaça.</p>
+                            <button class="movie-list-item-button">Assistir</button>
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="img/6.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <span class="movie-list-item-title">Kong</span>
+                            <p class="movie-list-item-desc">O enredo gira em torno de um homem e um gorila gigante, onde inicialmente sua espécies estava extinta, MAS NÃO.</p>
+                            <button class="movie-list-item-button">Assistir</button>
                         </div>
                         <div class="movie-list-item">
-                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <img class="movie-list-item-img" src="img/imagens/chucky.jpg" alt="">
+                            <span class="movie-list-item-title">chucky</span>
+                            <p class="movie-list-item-desc">O Brinquedo assasino retorna, e agora mais louco do que nunca</p>
+                            <button class="movie-list-item-button">Assistir</button>
                         </div>
                     </div>
                     <i class="fas fa-chevron-right arrow"></i>
@@ -207,10 +203,9 @@
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="img/5.jpg" alt="">
-                            <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <span class="movie-list-item-title">Vingadores</span>
+                            <p class="movie-list-item-desc">Grupo de super heróis formado por Nick Fyru, para combater o mal desperto.</p>
+                            <button class="movie-list-item-button">Assistir</button>
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="img/1.jpg" alt="">
@@ -282,7 +277,6 @@
             </div>
         </div>
     </div>
+                  
     <script src="app.js"></script>
-</body>
-
 </html>
