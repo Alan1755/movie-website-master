@@ -99,6 +99,27 @@ body {
 }
 
 
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #141414;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
 .profile-container {
   flex: 2;
   display: flex;
